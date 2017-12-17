@@ -318,8 +318,7 @@ for i in range(3):
     plt.imshow(images[randno])
     plt.show()
     
-    ```
-    
+  
 
     printing three random images 
     
@@ -335,6 +334,8 @@ for i in range(3):
 
 ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_8.png)
 
+
+```
 ```python
 
 
@@ -466,4 +467,4 @@ with open('./model.json', 'w') as f:
     
 
 
-```python
+```
