@@ -383,7 +383,7 @@ model.add(Convolution2D(64,3,3, activation='relu'))
 # add a flatten layer
 model.add(Flatten())
 
-# three fully connected layers (depth 120, 80, 10, tanh activation (and dropouts)
+# three fully connected layers (depth 120, 80, 10, 
 model.add(Dense(120, activation='relu'))
 model.add(Dense(80, activation='relu'))
 model.add(Dense(10, activation='relu'))
