@@ -390,7 +390,7 @@ with open('./model.json', 'w') as f:
     
 
 
-![png](output_0_4.png)
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_4.png)
 
 
     image shape after processing is (11343, 66, 200, 3)
@@ -398,15 +398,15 @@ with open('./model.json', 'w') as f:
     
 
 
-![png](output_0_6.png)
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_6.png)
 
 
 
-![png](output_0_7.png)
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_7.png)
 
 
 
-![png](output_0_8.png)
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_8.png)
 
 
 
