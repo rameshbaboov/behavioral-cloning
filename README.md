@@ -294,11 +294,11 @@ images, steering_angle = normalize_by_steering_angle(images, steering_angle)  # 
     initial no of one camera images 21581
     chart before steeting angle normalization
     
-    ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_2.png)
+   ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_2.png)
 
     chart after steeting angle normalization
     
-    ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_4.png)
+   ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_4.png)
 
 
     image shape after processing is (11343, 66, 200, 3)
