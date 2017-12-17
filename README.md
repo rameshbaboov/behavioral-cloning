@@ -32,3 +32,5 @@ I tried the model with a normal Neural network and this didn't run fully. Hence 
 
 
 
+Inline-style: 
+![alt text](https://github.com/rameshbaboov/behavioral-cloning/model/nVidia_model.png "NVIDIA Model")
