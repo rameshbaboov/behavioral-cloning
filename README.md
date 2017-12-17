@@ -462,12 +462,3 @@ with open('./model.json', 'w') as f:
 
 
 ```python
-import keras
-print(keras.__version__)
-```
-
-    
-    
-
-
- 
