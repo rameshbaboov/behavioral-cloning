@@ -1,6 +1,6 @@
 # Behaviorial Cloning Project
 
-The Project
+## The Project
 ---
 The goals / steps of this project are the following:
 * Use the simulator to collect images that provides as a base input to the CNN. The images are captured by driving the vehicle few laps
@@ -9,10 +9,12 @@ The goals / steps of this project are the following:
 * Use the model to drive the vehicle autonomously around the first track in the simulator. The vehicle should remain on the road for an entire loop around the track.
 
 
-### Additional files used
+## Additional files used
 ### `drive.py`
 
 This file was modified as my model needs input in a different shape than the one provided by the simulator. so I have modified drive.py to include the same pre-processing routine that is presend in my model.
 
-### Are all the required files submitted
-Yes. I have submitted modified drive.py, model.py and model.h5 along with video
+## Are all the required files submitted
+Yes. I have submitted modified drive.py, model.py and model.h5 along with video. In the video, the simulator drives more than one lap without going off the road even at turns.
+
+
