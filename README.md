@@ -31,6 +31,5 @@ Model.py uses a python generator which enables the model to run simulataneously 
 I tried the model with a normal Neural network and this didn't run fully. Hence adopted NVIDIA model.  Following is the approach that I had taken:
 
 
-
-Inline-style: 
+NVIDIA Model architecture as given in Internet:
 ![alt text](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/nVidia_model.png "NVIDIA Model")
