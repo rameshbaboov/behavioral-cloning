@@ -294,10 +294,7 @@ images, steering_angle = normalize_by_steering_angle(images, steering_angle)  # 
     initial no of one camera images 21581
     chart before steeting angle normalization
     
-
-
-![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_2.png)
-
+    ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_2.png)
 
     chart after steeting angle normalization
     
@@ -306,7 +303,6 @@ images, steering_angle = normalize_by_steering_angle(images, steering_angle)  # 
 
     image shape after processing is (11343, 66, 200, 3)
 
-```
 
 ```python
 
@@ -318,6 +314,7 @@ for i in range(3):
     plt.imshow(images[randno])
     plt.show()
     
+```
   
 
     printing three random images 
@@ -335,7 +332,6 @@ for i in range(3):
 ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_8.png)
 
 
-```
 ```python
 
 
