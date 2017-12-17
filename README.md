@@ -317,7 +317,7 @@ for i in range(3):
 ```
   
 
-    printing three random images 
+printing three random images 
     
 
 
@@ -408,10 +408,8 @@ json_string = model.to_json()
 with open('./model.json', 'w') as f:
      f.write(json_string)
                        
-
-
 ```
-    
+
     generate_data:images 7259
     generate_data:steering_angle 7259
     generate_data:images shape (7259, 66, 200, 3)
