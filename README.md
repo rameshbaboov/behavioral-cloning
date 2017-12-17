@@ -291,17 +291,17 @@ images, steering_angle = normalize_by_steering_angle(images, steering_angle)  # 
 
 ```
 
-    initial no of one camera images 21581
-    chart before steeting angle normalization
+   initial no of one camera images 21581
+   chart before steeting angle normalization
     
    ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_2.png)
 
-    chart after steeting angle normalization
+   chart after steeting angle normalization
     
    ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_4.png)
 
 
-    image shape after processing is (11343, 66, 200, 3)
+   image shape after processing is (11343, 66, 200, 3)
 
 
 ```python
@@ -410,26 +410,26 @@ with open('./model.json', 'w') as f:
                        
 ```
 
-    generate_data:images 7259
-    generate_data:steering_angle 7259
-    generate_data:images shape (7259, 66, 200, 3)
-    generate_data:steering_angle shape (7259,)
-    printing from generate_data
-    Epoch 1/5
+   generate_data:images 7259
+   generate_data:steering_angle 7259
+   generate_data:images shape (7259, 66, 200, 3)
+   generate_data:steering_angle shape (7259,)
+   printing from generate_data
+   Epoch 1/5
 
-    sending data from generator - iteration 9079
-    statement after yield
-    statement before yield
-    array x length -  50
-    array x length -  50
-    array x shape (50, 66, 200, 3)
-    array x shape (50,)
-    sending data from generator - iteration 9080
-     - 64s - loss: 0.0537 - val_loss: 0.0541
-    _________________________________________________________________
-    Layer (type)                 Output Shape              Param #   
-    =================================================================
-    lambda_1 (Lambda)            (None, 66, 200, 3)        0         
+   sending data from generator - iteration 9079
+   statement after yield
+   statement before yield
+   array x length -  50
+   array x length -  50
+   array x shape (50, 66, 200, 3)
+   array x shape (50,)
+   sending data from generator - iteration 9080
+    - 64s - loss: 0.0537 - val_loss: 0.0541
+   _________________________________________________________________
+   Layer (type)                 Output Shape              Param #   
+   =================================================================
+   lambda_1 (Lambda)            (None, 66, 200, 3)        0         
     _________________________________________________________________
     conv2d_1 (Conv2D)            (None, 31, 98, 24)        1824      
     _________________________________________________________________
@@ -452,13 +452,13 @@ with open('./model.json', 'w') as f:
     dense_3 (Dense)              (None, 10)                810       
     _________________________________________________________________
     dense_4 (Dense)              (None, 1)                 11        
-    =================================================================
-    Total params: 280,209
-    Trainable params: 280,209
-    Non-trainable params: 0
+   =================================================================
+   Total params: 280,209
+   Trainable params: 280,209
+   Non-trainable params: 0
     _________________________________________________________________
     None
-    
+ 
 
 
 ```
