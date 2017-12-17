@@ -285,11 +285,32 @@ for line in lines:
         #print('size of images before flipping', len(images))
         #print('size of steering angle before flipping', len(steering_angle))
         # debugging######################################
+        print("image shape after processing is", images.shape)
 
 images, steering_angle = normalize_by_steering_angle(images, steering_angle)  # normalize by steering angle
-print("image shape after processing is", images.shape)
 
-       
+```
+
+    initial no of one camera images 21581
+    chart before steeting angle normalization
+    
+
+
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_2.png)
+
+
+    chart after steeting angle normalization
+    
+    ![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_4.png)
+
+
+    image shape after processing is (11343, 66, 200, 3)
+
+```
+
+```python
+
+      
 # print some random images:
 print('printing three random images')
 for i in range(3):
@@ -297,6 +318,25 @@ for i in range(3):
     plt.imshow(images[randno])
     plt.show()
     
+    ```
+    
+
+    printing three random images 
+    
+
+
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_6.png)
+
+
+
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_7.png)
+
+
+
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_8.png)
+
+```python
+
 
 # split the data between training and testing
 print("splitting the data")
@@ -374,42 +414,7 @@ with open('./model.json', 'w') as f:
 
 
 ```
-
-    Using TensorFlow backend.
     
-
-    initial no of one camera images 21581
-    chart before steeting angle normalization
-    
-
-
-![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_2.png)
-
-
-    chart after steeting angle normalization
-    
-
-
-![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_4.png)
-
-
-    image shape after processing is (11343, 66, 200, 3)
-    printing three random images 
-    
-
-
-![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_6.png)
-
-
-
-![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_7.png)
-
-
-
-![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_8.png)
-
-
-
     generate_data:images 7259
     generate_data:steering_angle 7259
     generate_data:images shape (7259, 66, 200, 3)
