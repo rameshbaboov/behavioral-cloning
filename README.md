@@ -394,7 +394,7 @@ with open('./model.json', 'w') as f:
 
 
     image shape after processing is (11343, 66, 200, 3)
-    printing three random images
+    printing three random images 
     
 
 
