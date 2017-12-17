@@ -40,7 +40,7 @@ My architecture includes the below:
 2. Three convolution layer with activation function. Each of these have depth of 24, 36 and 48 with 2 x 2 stride followed by a drop out
 3. two convolution layer layers with output depth of 64
 4. Flatten layer
-5. Three fully connected layers with depth 120, 80, 10, tanh activation
+5. Three fully connected layers with depth 120, 80, 10
 6. One fully connected layer
 7. Loss function of MSE is chose and ADAM optimizer is chosen
 8. The architecture uses fit_generator instead of model.fit
