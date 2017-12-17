@@ -426,6 +426,8 @@ with open('./model.json', 'w') as f:
    array x shape (50,)
    sending data from generator - iteration 9080
     - 64s - loss: 0.0537 - val_loss: 0.0541
+    
+   ``` 
    _________________________________________________________________
    Layer (type)                 Output Shape              Param #   
    =================================================================
@@ -459,6 +461,4 @@ with open('./model.json', 'w') as f:
     _________________________________________________________________
     None
  
-
-
 ```
