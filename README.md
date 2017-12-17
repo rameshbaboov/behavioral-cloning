@@ -190,7 +190,7 @@ def generate_data(images,steering_angle,batch_size):
     print("generate_data:images",len(images))
     print("generate_data:steering_angle",len(steering_angle))
     print("generate_data:images shape",images.shape)
-    print("generate_data:steering_angle shape",steering_angle.shape)
+    print("generate_data:steering_angle shape",steering_angle.shape) 
     print('printing from generate_data')
     iter = 1
     images, steering_angle = shuffle(images,steering_angle)
