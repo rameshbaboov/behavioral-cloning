@@ -383,7 +383,7 @@ with open('./model.json', 'w') as f:
     
 
 
-![png](output_0_2.png)
+![png](https://github.com/rameshbaboov/behavioral-cloning/blob/master/model/output_0_2.png)
 
 
     chart after steeting angle normalization
